@@ -27,7 +27,7 @@ First, the Theater Outcomes by Launch Date comprises the pivot table, which is i
 and the number of successful, cancelled, and failed. 
 Second, the Outcomes Based on Goals consists of a dollar-amount range, the number of successful, failed and cancelled, 
 the sum of total projects, and finally, their percentages.
-Using the function of 'COUNTIFS()' populated the number of successful, failed and cancelled. Then, with the 'SUM()' function 
+Using the function of COUNTIFS() populated the number of successful, failed and cancelled. Then, with the SUM() function 
 got the number of total projects. 
 
 ### Analysis of Outcomes Based on Launch Date
@@ -42,6 +42,7 @@ The line graph shows that the percentage of the outcomes based on goals. For exa
 between less than $1000 and $29999 by around 55%. However, it was increasing suddenly after the amount of $25000 to $29999 up to the range of $35000 to $39999 then it reached by 0% abruptly at the point of $45000 to $49999. 
 In opposite to that, the percentage of failed reached 100%. It is clear that there was an asymmetrical relationship between the successful and failed numbers. 
 Finally, there were not any outcomes for the percentage of cancelled projects. 
+<p align="center"><img src="https://github.com/zkirsan/Kickstarter-Analysis/blob/main/Resources/Outcomes_vs_Goals.png?raw=true"></img>
 
 
 ### Challenges and Difficulties Encountered
@@ -58,7 +59,6 @@ that needs more data about the attendees. Also, there was a steady percentage fo
 According to the Outcomes based on Goals, It is obvious that there has been an asymmetrical interaction between successful and failed figures.
 In terms of more descriptive analysis that the dataset needs more specific information about the participants. For example, we do not have any information about people 
 who were interested in the fundraising and their profiles. 
-Finally, according to given data, it could have seen some other possible tables and/or graphs, which are the Parent Category Outcomes, the Subcategory Outcomes, the Outcomes based on
-Lauch Date, and a specific country research. 
+Finally, according to given data, it could have seen some other possible tables and/or graphs, which are the Parent Category Outcomes, the Subcategory Outcomes, the Outcomes based on Lauch Date, and a specific country research. 
 
 
