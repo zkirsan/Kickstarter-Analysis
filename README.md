@@ -25,6 +25,8 @@ Performing analysis on Kickstarter data aims to uncover any hidden trends. These
 
 First, the Theater Outcomes by Launch Date comprises the pivot table, which is including the count of outcomes per month, 
 and the number of successful, cancelled, and failed. 
+
+
 Second, the Outcomes Based on Goals consists of a dollar-amount range, the number of successful, failed and cancelled, 
 the sum of total projects, and finally, their percentages.
 Using the function of COUNTIFS() populated the number of successful, failed and cancelled. Then, with the SUM() function 
@@ -40,9 +42,10 @@ cancelled projects between September and November.
 
 The line graph shows that the percentage of the outcomes based on goals. For example, in case of the Theater filtered,there was a decrease in the percentage of successful projects 
 between less than $1000 and $29999 by around 55%. However, it was increasing suddenly after the amount of $25000 to $29999 up to the range of $35000 to $39999 then it reached by 0% abruptly at the point of $45000 to $49999. 
+<p align="center"><img src="https://github.com/zkirsan/Kickstarter-Analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png"></img></p>
 In opposite to that, the percentage of failed reached 100%. It is clear that there was an asymmetrical relationship between the successful and failed numbers. 
 Finally, there were not any outcomes for the percentage of cancelled projects. 
-<p align="center"><img src="https://github.com/zkirsan/Kickstarter-Analysis/blob/main/Resources/Outcomes_vs_Goals.png?raw=true"></img>
+<p align="center"><img src="https://github.com/zkirsan/Kickstarter-Analysis/blob/main/Resources/Outcomes_vs_Goals.png?raw=true"></img></p>
 
 
 ### Challenges and Difficulties Encountered
